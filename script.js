@@ -3,7 +3,7 @@ let repetitions = 0;
 
 document.getElementById('clickableImage').addEventListener('click', function() {
     count++;
-    if (count > 108) {
+    if (count > 107) {
         count = 0;
         repetitions++;
     }
